@@ -1,53 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <head>
 
-</head>
-<body>
-<div class = 'container-fluid' >
-    <!-- Carousel of Open Source Projects -->
-    <div id="carousel" class="carousel slide" data-ride="carousel">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-            <li data-target="#carousel" data-slide-to="3"></li>
-        </ol>
+    <title>Jeadie</title>
 
-        <!-- The slideshow -->
-        <div class="carousel-inner fluid" style="background-color: aliceblue">
-            <div class="carousel-item fluid active">
-                <h1><a href="https://github.com/Jeadie/super-broccoli"> Super Broccoli</a></h1>
-            </div>
-            <div class="carousel-item fluid" style="background-color: cornsilk ">
-                <h1><a href="https://github.com/Jeadie/silver-engine">Silver Engine</a></h1>
-            </div>
-            <div class="carousel-item fluid" style="background-color: gold">
-                <h1><a href="https://github.com/Jeadie/UQ-Winter-Research-Project-2017">UQ Winter Research Project 2017</a></h1>
-            </div>
-            <div class="carousel-item fluid" style="background-color: wheat">
-                <h1><a href="https://github.com/Jeadie/NBAnalyser">NBAnalyser</a></h1>
-            </div>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Jack Eadie</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#summary">Summary</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#footer">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container my-auto">
+        <h1 class="mb-1"> Jack Eadie</h1>
+        <h3 class="mb-5">
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>About Me</h2>
+            <p class="lead mb-5">
+              This paragraph is all about me (Will be here soon).
+            </p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#portfolio">My Open Source Projects</a>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#carousel" role="button"  data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
+    <!-- Summary -->
+    <section class="content-section bg-primary text-white text-center" id="summary">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Timeline</h3>
+          <h2 class="mb-5">Summary</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-graduation"></i>
+            </span>
+            <h4>
+              <strong>Study</strong>
+            </h4>
+            <p class="text-faded mb-0">Enrolled at UQ: February 2016</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-bulb"></i>
+            </span>
+            <h4>
+              <strong>Hello World</strong>
+            </h4>
+            <p class="text-faded mb-0">First touched code: July 2016</p>
+          </div>
 
-        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
-    </div>
-</div>
-</body>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-briefcase"> </i>
+            </span>
+            <h4>
+              <strong>Work</strong>
+            </h4>
+            <p class="text-faded mb-0">Started work at the QBI: March 2017</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <a href="./CV.pdf"><i class="icon-cloud-download"></i></a>
+            </span>
+            <h4>
+              <strong>More?</strong>
+            </h4>
+            <p class="text-faded mb-0">Have a look at my CV</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5">Recent Open Source Projects</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://github.com/Jeadie/super-broccoli">
+              <span class="caption" style="background-color: #80bdff">
+                <span class="caption-content">
+                  <h2>Super Broccoli</h2>
+                  <p class="mb-0">C++ & Tiny Machine Learning and Statistics projects</p>
+                </span>
+              </span>
+              <svg class="img-fluid" width="530" height="353.58"></svg>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://github.com/Jeadie/silver-engine">
+              <span class="caption" style="background-color: #b602ff">
+                <span class="caption-content">
+                  <h2>Silver Engine</h2>
+                  <p class="mb-0">Financial based scripts and web apps based off content learnt in MATH3090 at UQ.</p>
+                </span>
+              </span>
+              <svg class="img-fluid" width="530" height="353.58"></svg>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://github.com/Jeadie/UQ-Winter-Research-Project-2017">
+              <span class="caption" style="background-color: #ffc107">
+                <span class="caption-content">
+                  <h2>UQ Winter Research Project 2017</h2>
+                  <p class="mb-0">Mathematical modelling of rho signalling at cell-cell junctions during collective cell migration</p>
+                </span>
+              </span>
+              <svg class="img-fluid" width="530" height="353.58"></svg>
+
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://github.com/Jeadie/NBAnalyser">
+              <span class="caption" style="background-color: #1d809f">
+                <span class="caption-content">
+                  <h2>NBAnalyser</h2>
+                  <p class="mb-0">NBA statistics interface through a Python DB.</p>
+                </span>
+              </span>
+              <svg class="img-fluid" width="530" height="353.58"></svg>
+
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer id = "footer" class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/jack-eadie/">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://github.com/Jeadie">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="mailto:jack.eadie0@gmail.com?Subject=Hello">
+              <i class="icon-envelope"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">With thanks to <a href="https://startbootstrap.com/">Start Bootstrap</a> for the help.</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
 </html>
