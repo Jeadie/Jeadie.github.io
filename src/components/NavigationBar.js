@@ -24,6 +24,7 @@ class NavigationBar extends React.Component {
         // This binding is necessary to make `this` work in the callback
         this.handleClick = this.handleClick.bind(this);
         this.handleCloseClick = this.handleCloseClick.bind(this);
+        this.list_item = this.list_item.bind(this);
             }
 
     handleCloseClick(e) {
@@ -32,6 +33,12 @@ class NavigationBar extends React.Component {
 
     handleClick(e) {
         this.state.isActive = this.state.isActive ? false : true; 
+    }
+
+    list_item(ref, name) {
+      return <li className="sidebar-nav-item">
+      <a className="js-scroll-trigger" onClick= {this.handleCloseClick} href={ref}>{name}</a>
+      </li>
     }
 
     render() { return <div>
@@ -43,18 +50,11 @@ class NavigationBar extends React.Component {
         <li className="sidebar-brand">
           <a className="js-scroll-trigger" onClick= {this.handleCloseClick}  href="#page-top">Jack Eadie</a>
         </li>
-        <li className="sidebar-nav-item">
-          <a className="js-scroll-trigger" onClick= {this.handleCloseClick} href="#">Home</a>
-        </li>
-        <li className="sidebar-nav-item">
-          <a className="js-scroll-trigger" onClick= {this.handleCloseClick} href="#about">About</a>
-        </li>
-        <li className="sidebar-nav-item">
-          <a className="js-scroll-trigger" onClick= {this.handleCloseClick} href="#summary">Summary</a>
-        </li>
-        <li className="sidebar-nav-item">
-          <a className="js-scroll-trigger" onClick= {this.handleCloseClick} href="#portfolio">Portfolio</a>
-        </li>
+        {this.list_item("#", "Home")}
+        {this.list_item("#about", "About")}
+        {this.list_item("#work", "Work")}
+        {this.list_item("#summary", "Summary")}
+        {this.list_item("#portfolio", "Portfolio")}
       </ul>
     </nav>
 </div> }
