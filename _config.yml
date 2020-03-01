@@ -1,0 +1,16 @@
+
+# Allow for remote themes
+plugins:
+  - jekyll-remote-theme
+
+
+# Theme & config
+theme_color: yellow
+remote_theme: broccolini/swiss
+github_username: jeadie
+
+social_link: linkedin
+social_username: jack-eadie
+# Home Page content
+title: Jack Eadie
+description: Working at MaxwellPlus. Studying at UQ. Mathematics. Software Engineering.

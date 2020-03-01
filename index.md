@@ -1,6 +1,4 @@
 ---
-layout: page
-title: "Jack Eadie"
 ---
 
-Coming soon to all good book stores near you. 
+A weird bug with the Jekyll theme. Without a blank index page, it is unnecessary doubled in the top menu bar.
