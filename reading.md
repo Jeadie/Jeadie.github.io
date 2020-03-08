@@ -13,6 +13,7 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Brave New World by Aldous Huxley
  - Essential by Joshua Fields Milburn & Ryan Nicodemus
  - Why I am Not Going to Buy a Computer by Wendell Berry
+ - Waking Up: A Guide to Spirituality Without Religion by Sam Harris
 
 ### In 2019:
 - Meditations by Marcus Arelius
