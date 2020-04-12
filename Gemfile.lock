@@ -242,7 +242,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 204)
+  github-pages
+  jekyll (~> 3.8.5)
   jekyll-remote-theme
 
 BUNDLED WITH

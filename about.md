@@ -36,5 +36,5 @@ September 2019 - December 2019
 June 2018 - July 2018
 
 ## Extras
-A full [Curriculum vitae](cv.pdf)
-
+A full [Curriculum vitae](cv.pdf) <br />
+And some more [extras](extras)
