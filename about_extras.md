@@ -1,6 +1,6 @@
 ---
 layout: category-post
-permalink: about/extras
+permalink: extras
 category_name: extras
 --- 
 Some extra details about me.
