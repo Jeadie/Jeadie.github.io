@@ -37,4 +37,4 @@ June 2018 - July 2018
 
 ## Extras
 A full [Curriculum vitae](cv.pdf) <br />
-And some more [extras](extras)
+And some more [extras](about/extras)
