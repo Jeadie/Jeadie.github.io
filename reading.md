@@ -14,6 +14,9 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Essential by Joshua Fields Milburn & Ryan Nicodemus
  - Why I am Not Going to Buy a Computer by Wendell Berry
  - Waking Up: A Guide to Spirituality Without Religion by Sam Harris
+ - The Invisible Man by H.G. Wells
+ - The Time Machine by H.G. Wells
+ - Meditations by Marcus Aurelius
 
 ### In 2019:
 - Meditations by Marcus Arelius
