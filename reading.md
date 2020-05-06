@@ -32,6 +32,7 @@ A rough compilation of what I've read over the years. These are the physical boo
 - Digitial Minimalism by Cal Newport
 - Utopia for Realists by Rutger Bregman
 - The Great Gatsby by F.Scott Fitzgerald
+- Tribe: On Homecoming and Belonging by Sebastian Junger
 - Consciousness by Annaka Harris
 - It doesn't have to be Crazy at Work by Jason Fried
 - The Secret Life by Andrew O'Hagan
