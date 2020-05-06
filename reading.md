@@ -17,6 +17,7 @@ A rough compilation of what I've read over the years. These are the physical boo
  - The Invisible Man by H.G. Wells
  - The Time Machine by H.G. Wells
  - Meditations by Marcus Aurelius
+ - Homage to Catalonia by George Orwell
 
 ### In 2019:
 - Meditations by Marcus Arelius
