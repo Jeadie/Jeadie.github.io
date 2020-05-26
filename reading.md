@@ -18,6 +18,7 @@ A rough compilation of what I've read over the years. These are the physical boo
  - The Time Machine by H.G. Wells
  - Meditations by Marcus Aurelius
  - Homage to Catalonia by George Orwell
+ - Across the River and into the Trees by Ernest Hemingway
 
 ### In 2019:
 - Meditations by Marcus Arelius
