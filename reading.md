@@ -19,6 +19,7 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Meditations by Marcus Aurelius
  - Homage to Catalonia by George Orwell
  - Across the River and into the Trees by Ernest Hemingway
+ - Our Mathematical Universe by Max Tegmark
 
 ### In 2019:
 - Meditations by Marcus Arelius
