@@ -2,7 +2,7 @@
 layout: category-post
 title:  "My Online Reading Notes"
 date:   2020-03-03
-categories: blog
+categories: not_blog
 ---
 
 These are my [Reading Notes](https://www.notion.so/Reading-Notes-11241d9832c84507a85519bc53170eaf) for everything online (at least anything I read on my computer). This is the introduction I included in the [Notion](https://www.notion.so/) page: 
