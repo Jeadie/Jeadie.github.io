@@ -20,8 +20,9 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Homage to Catalonia by George Orwell
  - Across the River and into the Trees by Ernest Hemingway
  - Our Mathematical Universe by Max Tegmark
- - Animal Farm by George Orwell
+ - In Praise of Idleness by Bertrand Russel
  - In Patagonia by Bruce Chatwin
+ - Animal Farm by George Orwell
 
 ### In 2019:
 - Meditations by Marcus Arelius
