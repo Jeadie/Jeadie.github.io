@@ -20,6 +20,8 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Homage to Catalonia by George Orwell
  - Across the River and into the Trees by Ernest Hemingway
  - Our Mathematical Universe by Max Tegmark
+ - Animal Farm by George Orwell
+ - In Patagonia by Bruce Chatwin
 
 ### In 2019:
 - Meditations by Marcus Arelius
