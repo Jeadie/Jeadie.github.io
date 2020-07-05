@@ -1,5 +1,5 @@
 ---
-layout: category-post
+layout: not-category-post
 title:  "My Online Reading Notes"
 date:   2020-03-03
 categories: not_blog
