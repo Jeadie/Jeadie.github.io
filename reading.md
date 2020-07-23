@@ -14,6 +14,15 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Essential by Joshua Fields Milburn & Ryan Nicodemus
  - Why I am Not Going to Buy a Computer by Wendell Berry
  - Waking Up: A Guide to Spirituality Without Religion by Sam Harris
+ - The Invisible Man by H.G. Wells
+ - The Time Machine by H.G. Wells
+ - Meditations by Marcus Aurelius
+ - Homage to Catalonia by George Orwell
+ - Across the River and into the Trees by Ernest Hemingway
+ - Our Mathematical Universe by Max Tegmark
+ - In Praise of Idleness by Bertrand Russel
+ - In Patagonia by Bruce Chatwin
+ - Animal Farm by George Orwell
 
 ### In 2019:
 - Meditations by Marcus Arelius
@@ -28,6 +37,7 @@ A rough compilation of what I've read over the years. These are the physical boo
 - Digitial Minimalism by Cal Newport
 - Utopia for Realists by Rutger Bregman
 - The Great Gatsby by F.Scott Fitzgerald
+- Tribe: On Homecoming and Belonging by Sebastian Junger
 - Consciousness by Annaka Harris
 - It doesn't have to be Crazy at Work by Jason Fried
 - The Secret Life by Andrew O'Hagan

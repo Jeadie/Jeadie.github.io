@@ -8,6 +8,7 @@ Some extra details about me.
 ## Hackathons
 * [Hack the North](https://hackthenorth.com/), 2019: Largest Hackathon in Canada.
 * [HealthHack](https://www.healthhack.com.au/), 2018: Project addressing malnutrition in hospitals by intelligent monitoring of patient meals.
+* [Tanda Hackathon](https://medium.com/tanda-developers/brisbane-tanda-hackathon-2018-5e911c17d614), 2018: Check out [beanti.me](https://github.com/Jeadie/beanti.me).
 * [UQCS Hackathon](https://uqcs.org/about/), 2017 & 2018
 
 ## Projects
