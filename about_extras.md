@@ -1,6 +1,7 @@
 ---
 layout: category-post
 permalink: extras
+title: Extras
 category_name: extras
 --- 
 Some extra details about me.
