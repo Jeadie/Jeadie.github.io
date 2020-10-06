@@ -28,6 +28,7 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Getting Things Done by David Allen
  - The Bridge on the Drina by Ivo Andric
  - Of Mice and Men by John Steinbeck
+ - Conspiracy by Ryan Holiday
 
 ### In 2019:
 - Meditations by Marcus Arelius
