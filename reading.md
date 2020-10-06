@@ -25,6 +25,9 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Animal Farm by George Orwell
  - Why We Sleep by Matthew Walker
  - Notes from Underground by Fyodor Dostoevsky
+ - Getting Things Done by David Allen
+ - The Bridge on the Drina by Ivo Andric
+ - Of Mice and Men by John Steinbeck
 
 ### In 2019:
 - Meditations by Marcus Arelius
