@@ -29,6 +29,8 @@ A rough compilation of what I've read over the years. These are the physical boo
  - The Bridge on the Drina by Ivo Andric
  - Of Mice and Men by John Steinbeck
  - Conspiracy by Ryan Holiday
+ - The Pale King by David Foster Wallace
+ - Permanent Record by Edward Snowden
 
 ### In 2019:
 - Meditations by Marcus Arelius
