@@ -31,6 +31,8 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Conspiracy by Ryan Holiday
  - The Pale King by David Foster Wallace
  - Permanent Record by Edward Snowden
+ - South from Granada by Gerald Brenan
+ - The Assault by Harry Mulisch
 
 ### In 2019:
 - Meditations by Marcus Arelius
