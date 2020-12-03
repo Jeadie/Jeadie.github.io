@@ -33,6 +33,8 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Permanent Record by Edward Snowden
  - South from Granada by Gerald Brenan
  - The Assault by Harry Mulisch
+ - Burmese Days by George Orwell
+ - To Kill a Mockingbird by Harper Lee
 
 ### In 2019:
 - Meditations by Marcus Arelius
