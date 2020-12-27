@@ -35,6 +35,9 @@ A rough compilation of what I've read over the years. These are the physical boo
  - The Assault by Harry Mulisch
  - Burmese Days by George Orwell
  - To Kill a Mockingbird by Harper Lee
+ - Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig
+ - 12 Rules for Life Jordan B. Peterson
+ - Investigations of a Dog by Franz Kafka
 
 ### In 2019:
 - Meditations by Marcus Arelius
