@@ -7,6 +7,12 @@ category_name: reading
 
 A rough compilation of what I've read over the years. These are the physical books I've read, most of which are now sagging my shelves excluding newspapers, textbooks, etc.
 
+### In 2021:
+ - The Master and the Margarita by Mikhail Bulgakov
+ - The Consolations of Philosophy by Alain de Botton
+ - Nobody Leaves: Impressions of Poland by Ryszard Kapuscinski
+ - So Good They Can't Ignore You by Cal Newport
+
 ### In 2020:
  - Infinite Jest by David Foster Wallace
  - Last Exit to Brooklyn by Hubert Selby Jr.
