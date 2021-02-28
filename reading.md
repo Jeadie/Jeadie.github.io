@@ -14,6 +14,8 @@ A rough compilation of what I've read over the years. These are the physical boo
  - So Good They Can't Ignore You by Cal Newport
  - Lolita by Vladimir Nabokov
  - Fathers and Sons by Ivan Turgenev
+ - The Prince by Niccolò Machiavelli
+ - Life of Pi by Yann Martel
 
 ### In 2020:
  - Infinite Jest by David Foster Wallace
