@@ -5,9 +5,11 @@ permalink: /about
 category_name: about
 ---
 ## Experience 
+### [Amazon](https://www.amazon.com.au/) - Software Engineer
+March 2021 - Present
 
 ### [MaxwellPlus](https://www.maxwellplus.com) - AI & Data Engineer
-April 2018 - Present
+April 2018 - March 2021
 
 ### [Queensland Brain Institute](https://qbi.uq.edu.au) - Scientific Programmer
 March 2017 - April 2018
