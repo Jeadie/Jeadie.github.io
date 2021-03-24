@@ -16,6 +16,9 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Fathers and Sons by Ivan Turgenev
  - The Prince by Niccolò Machiavelli
  - Life of Pi by Yann Martel
+ - The School of Life: An Emotional Education by Alain de Botton
+ - The Plague by Albert Camus
+ - The 33 Strategies of War by Robert Greene
 
 ### In 2020:
  - Infinite Jest by David Foster Wallace
