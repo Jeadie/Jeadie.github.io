@@ -88,5 +88,5 @@ A rough compilation of what I've read over the years. These are the physical boo
 - Bad Blood by John Carreyrou
 - Lying by Sam Harris
 - Flash Boys by Michael Lewis
-- The Economics of Inequality by Michael Lewis
+- The Economics of Inequality by Thomas Piketty
 - Fooled by Randomness by Nassim Nicholas Taleb
