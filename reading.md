@@ -19,6 +19,7 @@ A rough compilation of what I've read over the years. These are the physical boo
  - The School of Life: An Emotional Education by Alain de Botton
  - The Plague by Albert Camus
  - The 33 Strategies of War by Robert Greene
+ - The Shadow of the Sun by Ryszard Kapuściński
 
 ### In 2020:
  - Infinite Jest by David Foster Wallace
