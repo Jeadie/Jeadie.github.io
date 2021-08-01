@@ -18,8 +18,21 @@ A rough compilation of what I've read over the years. These are the physical boo
  - Life of Pi by Yann Martel
  - The School of Life: An Emotional Education by Alain de Botton
  - The Plague by Albert Camus
+ - A Wild Sheep Chase by Haruki Murakami
+ - The Art of Living: The Classical Manual on Virtue, Happiness and Effectiveness by Epictetus
  - The 33 Strategies of War by Robert Greene
  - The Shadow of the Sun by Ryszard Kapuściński
+ - Letters from a Stoic by Seneca
+ - 1984 by George Orwell
+ - Deep Work: Rules for Focuesed Success in a Distracted World by Cal Newport
+ - Flatland: A Romance of Many Dimensions by Edwin A. Abbot
+ - Greenlights by Matthew McConaughey
+ - Symmetry by Hermann Weyl
+ - The Tree of Man by Patrick White
+ - From Here to Infinity by Ian Stewart
+ - One day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn
+ - Cat's Cradle by Kurt Vonnegut
+ - All Quiet on the Western Front by Erich Maria Remarque
 
 ### In 2020:
  - Infinite Jest by David Foster Wallace
