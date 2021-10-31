@@ -33,6 +33,16 @@ A rough compilation of what I've read over the years. These are the physical boo
  - One day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn
  - Cat's Cradle by Kurt Vonnegut
  - All Quiet on the Western Front by Erich Maria Remarque
+ - An Imaginary Life by David Malouf 
+ - Walden by Henry David Thoreau
+ - Nausea by Jean-Paul Sartre
+ - A Good Life: Philosophy from Cradle to Grave by Mark Rowlands
+ - The Outsider by Albert Camus
+ - Man's Search for Meaning by Victor Frankl
+ - Quantum Mechanics: The Theoretical Minimum by Leonard Susskind
+ - Oblivion: Stories by David Foster Wallace
+	
+
 
 ### In 2020:
  - Infinite Jest by David Foster Wallace
