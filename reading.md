@@ -7,6 +7,14 @@ category_name: reading
 
 A rough compilation of what I've read over the years. These are the physical books I've read, most of which are now sagging my shelves excluding newspapers, textbooks, etc.
 
+### In 2022:
+ - A Simpler Life by The School of Life	
+ - The Grapes of Wrath by John Steinbeck
+ - Does God Play Dice? by Ian Stewart
+ - The Brothers Karamazov by Fyodor Dostoevsky
+ - Beyond Order by Jordan B Peterson
+ - Two Acre Eden by Gene Logsdon, Gene
+
 ### In 2021:
  - The Master and the Margarita by Mikhail Bulgakov
  - The Consolations of Philosophy by Alain de Botton
