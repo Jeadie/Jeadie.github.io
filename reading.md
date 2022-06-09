@@ -8,6 +8,10 @@ category_name: reading
 A rough compilation of what I've read over the years. These are the physical books I've read, most of which are now sagging my shelves excluding newspapers, textbooks, etc.
 
 ### In 2022:
+ - Rework by Jason Fried
+ - Dangerous Men by Michael Katakis
+ - The Golden Maze by Richard Fidler
+ - Freedom by Sebastian Junger
  - A Simpler Life by The School of Life	
  - The Grapes of Wrath by John Steinbeck
  - Does God Play Dice? by Ian Stewart
