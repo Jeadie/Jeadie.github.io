@@ -1,12 +1,11 @@
-# Hi there 👋
+# 👋 I am Jack Eadie
 
-### Now
-- Building tensor search at [Marqo.ai](marqo.ai).
+## Now: building neural search at [Marqo.ai](marqo.ai)
 
-### Past
-- 18 months at Amazon working on groceries (think Whole Foods and Amazon Fresh), improving recommendations and the customer impact of when groceries are out of stock.
 
-- ~ 3 years working at [MaxwellPlus](https://www.maxwellplus.com/), where we did some awesome work (see [[1]](https://cloud.google.com/customers/maxwell-plus/) & [[2]](https://nhsaccelerator.com/innovation/maxwell-plus/)). I spent my time across AI research, ML + data engineering and infrastructure + devops.
+## Past
+I spent ~18 months within Amazon's grocery org (think Whole Foods and Amazon Fresh). I worked on improving the recommendations we give when groceries aren't in-stock and shipped features to alleviate the customer experience if/when it occurs.
 
-- I studied both mathematics (mainly pure) + software engineering at UQ. I wish I did even more math.
+Before that, I spent nearly 3 years working at [MaxwellPlus](https://www.linkedin.com/company/maxwell-plus). We did some awesome work (see [[1]](https://cloud.google.com/customers/maxwell-plus/) & [[2]](https://nhsaccelerator.com/innovation/maxwell-plus/)) rethinking how urologists can use AI with telehealth support to scale and improve the outcomes of prostate cancer screening. I spent time on and learnt a bunch here doing ML research, ML & data engineering, infrastructure and tooling.
 
+I studied both mathematics and software engineering at [UQ](https://www.uq.edu.au/). I enjoyed pure mathematics and wish I did more.
