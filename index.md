@@ -1,5 +1,5 @@
 ---
-title: I am Jack Eadie
+title: 👋 I am Jack Eadie
 ---
 
 # 👋 I am Jack Eadie
@@ -15,4 +15,4 @@ Before that, I spent nearly 3 years working at [MaxwellPlus](https://www.linkedi
 I studied both mathematics and software engineering at [UQ](https://www.uq.edu.au/). I enjoyed pure mathematics and wish I did more.
 
 
-## [Github :octocat:](github.com/jeadie) | [Linkedin 🔗](linkedin.com/in/jack-eadie) | [Email 📫](mailto:jackeadie@duck.com)
+## [Github](github.com/jeadie) | [Linkedin 🔗](linkedin.com/in/jack-eadie) | [Email 📫](mailto:jackeadie@duck.com)
