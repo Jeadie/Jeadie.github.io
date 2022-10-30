@@ -1,3 +1,7 @@
+---
+title: I am Jack Eadie
+---
+
 # 👋 I am Jack Eadie
 
 ## Now: building neural search at [Marqo.ai](marqo.ai)
