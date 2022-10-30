@@ -11,5 +11,4 @@ Before that, I spent nearly 3 years working at [MaxwellPlus](https://www.linkedi
 I studied both mathematics and software engineering at [UQ](https://www.uq.edu.au/). I enjoyed pure mathematics and wish I did more.
 
 
-<br></br>
 ## [Github :octocat:](github.com/jeadie) | [Linkedin 🔗](linkedin.com/in/jack-eadie) | [Email 📫](mailto:jackeadie@duck.com)
