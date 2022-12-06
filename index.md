@@ -4,7 +4,7 @@ title: 👋 I am Jack Eadie
 
 # 👋 I am Jack Eadie
 
-## Now: building neural search at [Marqo.ai](marqo.ai)
+## Now: building neural search at [Marqo.ai](https://www.marqo.ai/)
 
 
 ## Past
@@ -15,4 +15,4 @@ Before that, I spent nearly 3 years working at [MaxwellPlus](https://www.linkedi
 I studied both mathematics and software engineering at [UQ](https://www.uq.edu.au/). I enjoyed pure mathematics and wish I did more.
 
 
-## [Github](https://github.com/jeadie) | [Linkedin 🔗](linkedin.com/in/jack-eadie) | [Email 📫](mailto:jackeadie@duck.com)
+## [Github](https://github.com/jeadie) | [Linkedin 🔗](https://linkedin.com/in/jack-eadie) | [Email 📫](mailto:jackeadie@duck.com)
