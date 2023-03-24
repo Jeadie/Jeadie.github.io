@@ -1,3 +1,9 @@
+---
+layout: page
+title: On Observability
+permalink: /notes/observability
+---
+
 # On Observability
 Notes on what is needed to understand a complex system, the open source tooling to consider, and various best practices
 
