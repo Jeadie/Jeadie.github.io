@@ -1,5 +1,6 @@
 ---
 title: 👋 I am Jack Eadie
+layout: home
 ---
 
 # 👋 I am Jack Eadie
