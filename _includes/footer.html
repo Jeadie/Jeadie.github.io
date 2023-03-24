@@ -1,12 +1,32 @@
-<!-- Overwrite the default footer we don't want -->
-<a href="#" onclick="scrollToTop(); return false;">Back to top</a>
-
-<script>
-function scrollToTop() {
-  if (window.scrollTo) {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  } else {
-    window.scrollTop = 0;
-  }
-}
-</script>
+<footer class="site-footer h-card">
+    <div class="wrapper">
+  
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+            <a href="#" onclick="scrollToTop(); return false;">Back to top</a>
+    
+            <script>
+            function scrollToTop() {
+              if (window.scrollTo) {
+                window.scrollTo({top: 0, behavior: 'smooth'});
+              } else {
+                window.scrollTop = 0;
+              }
+            }
+            </script>
+        </div>
+  
+        <div class="footer-col footer-col-2">
+          {%- include social.html -%}
+        </div>
+  
+        <div class="footer-col footer-col-3">
+          <p>{{- site.description | escape -}}</p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </footer>
