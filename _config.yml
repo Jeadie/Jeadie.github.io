@@ -6,8 +6,8 @@ header_pages:
  - blog.md
  - now.md
 
-plugins:
- - jekyll-spaceship
+kramdown:
+  math_engine: mathjax
 
 github_username:  jeadie
 linkedin_username: jack-eadie
