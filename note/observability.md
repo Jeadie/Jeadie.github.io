@@ -1,7 +1,7 @@
 ---
 layout: page
 title: On Observability
-permalink: /notes/observability
+permalink: /note/observability
 ---
 
 # On Observability

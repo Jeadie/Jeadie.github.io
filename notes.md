@@ -4,7 +4,7 @@ permalink: /note
 ---
 
 ### Platform
- - [Observability](notes/observability.html): Fundamentals of Observability and OpenTelemetry
+ - [Observability](note/observability): Fundamentals of Observability and OpenTelemetry
 
 ### Search
 - [ANN](https://jeadie.github.io/notes/anns): Approximate nearest neighbours
