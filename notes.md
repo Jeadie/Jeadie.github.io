@@ -1,6 +1,6 @@
 ---
 title: Notes
-permalink: /notes
+permalink: /note
 ---
 
 ### Platform
