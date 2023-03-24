@@ -1,6 +1,6 @@
 title: 👋 I am Jack Eadie
 # markdown: kramdown
-# theme: minima
+theme: minima
 google_analytics: plausible
 header_pages:
  - now.md
