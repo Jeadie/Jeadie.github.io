@@ -2,8 +2,9 @@ title: Jack Eadie
 # markdown: kramdown
 theme: minima
 header_pages:
- - now.md
  - note.md
+ - blog.md
+ - now.md
 
 github_username:  jeadie
 linkedin_username: jack-eadie
