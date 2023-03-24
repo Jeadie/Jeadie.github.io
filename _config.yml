@@ -6,5 +6,8 @@ header_pages:
  - blog.md
  - now.md
 
+plugins:
+ - jekyll-spaceship
+
 github_username:  jeadie
 linkedin_username: jack-eadie
