@@ -3,8 +3,7 @@ layout: page
 title: In Praise of Idleness
 permalink: /blog/plausible
 ---
-> And easy, single-file, self-hosted analytics
----
+
 This page has analytics (if you snoop, you'll see it sending traffic to `analytics.jeadie.xyz`). I decided against the default Google Analytics, which leads to a string of alternative Saas, or self-hosting. Plausible seemed ideal (and perhaps [better](https://plausible.io/vs-google-analytics) than Google). For a site that gets no traffic (until you), I didn't want to pay $9/month. I went for self-hosting. In sum: I self-host Plausible on a single EC2 instance using a single file of work. It was easy.
 
 ## Setup
@@ -38,7 +37,7 @@ So what's running in the Ec2? Well firstly, Plausible:
       - ENABLE_EMAIL_VERIFICATION=true
       - MAILER_EMAIL=hello@${DOMAIN_NAME}
 ```
-Which needs two data stores, a postgres database for user data:
+Two data stores. First, a postgres database for user data:
 ```yaml
   plausible_db:
     image: postgres:14-alpine
@@ -48,7 +47,7 @@ Which needs two data stores, a postgres database for user data:
     environment:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-postgres}
 ```
-and an event database (for the actual analytics data)
+and an event database for the analytics data.
 ```yaml
   plausible_events_db:
     image: clickhouse/clickhouse-server:22.6-alpine
@@ -62,7 +61,7 @@ and an event database (for the actual analytics data)
         soft: 262144
         hard: 262144
 ```
-and a mail server (for simple email verification, weekly emails)
+Also, Plausible (optionally) needs a mail server (for simple email verification, weekly emails).
 ```yaml
   mail:
     image: bytemark/smtp
@@ -80,7 +79,4 @@ All of this sets up plausible locally, running on port 8000. But we still need S
       - caddy_data:/data
       - caddy_config:/config
 ```
-And with all that minimial effort I get to see the minimal traffic that comes to my corner of the internet.
-
-
-
+And with minimial effort, I get to see the trickle of traffic that comes to my corner of the internet.
