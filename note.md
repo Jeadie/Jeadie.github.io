@@ -2,6 +2,7 @@
 title: Notes
 permalink: /note
 ---
+Rough notes I've taken on a variety of subjects. Some are complete, most not.
 
 ### Platform
  - [Observability](note/observability): Fundamentals of Observability and OpenTelemetry

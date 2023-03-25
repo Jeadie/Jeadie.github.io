@@ -1,0 +1,79 @@
+version: "3.3"
+services:
+  # SETUP:
+  # 
+  # 1. `export SECRET_KEY_BASE=$(openssl rand -base64 64 | tr -d '\n' ; echo)` (probably write this down)
+  # 2. `export DOMAIN_NAME=<SET YOURSELF>`
+  # 3. `export POSTGRES_PASSWORD=<IF YOU LIKE>`  
+  # 4. `docker-compose up -d`
+  # 5. Profit.
+    # Bypass email, when active, with `$ docker-compose exec plausible_db psql -U postgres -d plausible_db -c "UPDATE users SET email_verified = true;"`
+
+  # UPDATE:
+  # ```
+  # docker-compose down --remove-orphans
+  # docker-compose pull plausible
+  # docker-compose up -d  
+  # ```
+
+  mail:
+    image: bytemark/smtp
+    restart: always
+
+  plausible_db:
+    image: postgres:14-alpine
+    restart: always
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-postgres}
+
+  plausible_events_db:
+    image: clickhouse/clickhouse-server:22.6-alpine
+    restart: always
+    volumes:
+      - event-data:/var/lib/clickhouse
+    ports:
+      - 8123:8123
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+
+  plausible:
+    image: plausible/analytics:latest
+    container_name: plausible
+    restart: always
+    command: sh -c "sleep 10 && /entrypoint.sh db createdb && /entrypoint.sh db migrate && /entrypoint.sh run"
+    depends_on:
+      - plausible_db
+      - plausible_events_db
+      - mail
+    ports:
+      - 8000:8000
+    environment:
+      - CLICKHOUSE_DATABASE_URL=http://plausible_events_db:8123/plausible_events_db	
+      - SECRET_KEY_BASE="${SECRET_KEY_BASE}"
+      - BASE_URL=https://${DOMAIN_NAME}
+      - ENABLE_EMAIL_VERIFICATION=true
+      - MAILER_EMAIL=hello@${DOMAIN_NAME}
+
+  caddy:
+    image: caddy
+    command: caddy reverse-proxy --from https://${DOMAIN_NAME}:443 --to http://plausible:8000
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+    driver: local
+  caddy_config:
+    driver: local
+  db-data:
+    driver: local
+  event-data:
+    driver: local
