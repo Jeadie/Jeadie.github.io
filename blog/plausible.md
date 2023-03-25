@@ -4,7 +4,7 @@ title: In Praise of Idleness
 permalink: /blog/plausible
 ---
 
-This page has analytics (if you snoop, you'll see it sending traffic to `analytics.jeadie.xyz`). I decided against the default Google Analytics, which leads to a string of alternative Saas, or self-hosting. Plausible seemed ideal (and perhaps [better](https://plausible.io/vs-google-analytics) than Google). For a site that gets no traffic (until you), I didn't want to pay $9/month. I went for self-hosting. In sum: I self-host Plausible on a single EC2 instance using a single file of work. It was easy.
+This page has analytics (if you snoop, you'll see it sending traffic to `analytics.jeadie.xyz`). I decided against the default Google Analytics, which leads to a string of alternative Saas services, or self-hosting. As a big fan of open source, self-hosting always seems fun, but comes with a littany of work, and upkeep. In praise of idleness (i.e. not maintaining a historic rube goldberg machine), I looked for the easiest and simple solution with all the features of modern analytics. Plausible seemed ideal (and perhaps [better](https://plausible.io/vs-google-analytics) than Google). For a site that gets no traffic (until you), I didn't want to pay $9/month. I went for self-hosting. In sum: I self-host Plausible on a single EC2 instance using a single file of work. It was easy.
 
 ## Setup
 1. Create an EC2 instance (`t3.micro` are on free tier).
