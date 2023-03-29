@@ -4,7 +4,7 @@ permalink: /cv
 ---
 
 ## Professional Experience
-### Engineering Lead, Marqo, Oct 2022-Present (6 mos)
+### Engineering Lead | Marqo | Oct 2022-Present (6 mos)
 - Directed and led the maturation of cloud infrastructure and processes (containerization, testing, CI/CD, and development tooling) for a small team of 4-5 engineers.
 - Within my first week, I unblocked the onboarding of our first Marqo Cloud customer by leading the deployment and performance testing of our storage layer on highly available Kubernetes clusters.
 - Designed and built the Marqo Cloud control plane, responsible for managing and provisioning the cell-based architecture used in the data plane for reliability and horizontal scaling, as well as automatic provisioning and scaling during account onboarding. The control plane handled a mix of container, Kubernetes, and AWS IaC integrations.
@@ -47,9 +47,9 @@ permalink: /cv
 
 ## Education
 ### Bachelor's Degree in Software Engineering/Mathematics, The University of Queensland, 2016-2020
- - Hawken Scholar, Exchange Scholarship, New Colombo Scholarship, Honors Thesis in Bayesian Deep Learning
- - Active member of UQ Computing Society, UQ Social Running Club, EUS, and EBESS
- - Exchange Semester, University of Waterloo, 2019
-   - Courses: Computer Networks, Computer Security and Privacy, Introduction to Artificial Intelligence, Groups and Rings, Real Analysis
- - Short Study Program, Dalian Neusoft University of Information, 2018
-   - Focused on tech-based entrepreneurship and innovation, leading a team working on a social media integrated platform
+- GPA: 6.88
+- Research: Honours thesis in Bayesian deep learning on longitudinal medical data for cancer prognosis
+- Hawken Scholar: Received every semester. Awarded to engineering students in the top 5% of the cohort.
+- Exchange Scholarship: Studied pure mathematics and computer science at the University of Waterloo
+- New Colombo Scholarship: Studied the intersection of technology and entrepreneurship in Dalian, China.
+- Extracurricular: Active member of UQ computing society, UQ social running club, engineering and electrically based engineering student societies, EUS and EBESS respectively
