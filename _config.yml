@@ -6,6 +6,7 @@ header_pages:
  - blog.md
  - now.md
  - cv.md
+ - ideas.md
 
 kramdown:
   math_engine: mathjax
