@@ -7,6 +7,7 @@ permalink: /ideas
 - Parameteric climate insurance for individuals + SMBs
 - Proof-of-work email spam prevention 
 - QR code coffee cup advertising marketplace
+- Introducing a 'LLMLIKE' SQL operator for text embedding search
 - ~~Low earth satelite cattle tracking ear tags~~
 - ~~Hand curated tech news platform~~
 - ~~AI podcasting tools~~
