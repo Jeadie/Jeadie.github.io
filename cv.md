@@ -6,10 +6,10 @@ permalink: /cv
 ## Professional Experience
 ### Engineering Lead | Marqo | Oct 2022-Present
 - Directed and led the maturation of cloud infrastructure and processes (containerization, testing, CI/CD, and development tooling) for a small team of 4-5 engineers.
-- Within my first week, I unblocked the onboarding of our first Marqo Cloud customer by leading the deployment and performance testing of our storage layer on highly available Kubernetes clusters.
 - Designed and built the Marqo Cloud control plane, responsible for managing and provisioning the cell-based architecture used in the data plane for reliability and horizontal scaling, as well as automatic provisioning and scaling during account onboarding. The control plane handled a mix of container, Kubernetes, and AWS IaC integrations.
+- Designed and built distributed training and fine-tuning infrastructure for LLMs in use to improve search relevancy (to be open-sourced soon).
+- Within my first week, I unblocked the onboarding of our first Marqo Cloud customer by leading the deployment and performance testing of our storage layer on highly available Kubernetes clusters.
 - Improved the system design of Marqo Cloud to meet vertical scaling requirements essential for winning enterprise customers.
-- Designed and built training and fine-tuning infrastructure for LLMs in use to improve search relevancy (to be open-sourced soon).
 - Redesigned and reimplemented core data plane microservices from Python for performance reasons.
 
 ### Software Engineer | Amazon | Mar 2021-Oct 2022 (1 yr 8 mos)
