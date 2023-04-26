@@ -1,9 +1,14 @@
-# [WIP] Hamiltonian, Poisson and Approximating Symmetries
+# Hamiltonian, Poisson and Approximating Symmetries
+> This is a WIP post. It's crux is that one could use optimisation techniques (e.g. gradient descent) to find approximate symmetries in a physical system because of Noether's Theorem. Also, for correct latex rendering, see [Github](https://github.com/Jeadie/Jeadie.github.io/blob/master/blog/hamiltonian-symmetries.md).
 
 ## Lagrangians
-A Lagrangian (a smooth function $L$) can describe the mechanics of an entire sytem by the [stationary-action](https://en.wikipedia.org/wiki/Stationary-action_principle) principle for a configuration space, $M$. Considering the Lagrangian as a function of positions $q_i$ and velocities $\dot{q_i}$, then the action and stationary-action principle of the lagrangian are respectively:
+A Lagrangian (a smooth function $L$) can describe the mechanics of an entire sytem by the [stationary-action](https://en.wikipedia.org/wiki/Stationary-action_principle) principle for a configuration space, $M$. Considering the Lagrangian as a function of positions $q_i$ and velocities $\dot{q_i}$. The action of the lagrangian is: 
 
-$A = \int^{t0}_{t1} L(q_i, \dot{q_i}) dt; \quad \delta A = 0$ 
+$A = \int^{t0}_{t1} L(q_i, \dot{q_i}) dt$
+
+The stationary-action principle can be explained as:
+
+$\delta A = 0$ 
 
 Euler-Lagrange equations describe the stationary points, i.e. $\delta A = 0$, of action functionals.
 
