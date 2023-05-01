@@ -4,8 +4,12 @@ permalink: /note
 ---
 Rough notes I've taken on a variety of subjects. Some are complete, most not.
 
-### Platform
- - [Observability](note/observability): Fundamentals of Observability and OpenTelemetry
+### AI Papers
+- [Neural Machine Translation](note/neural-machine-translation)
+- [Attention is all you need](note/attention-is-all-you-need)
+- [BERT](note/bert): Pre-training of Deep Bidirectional Transformers for Language Understanding 
+- [GPT](note/gpt): The Evolution of GPT
+- [VQGAN-CLIP](note/vqgan-clip): Open Domain Image Generation and Editing with Natural Language Guidance
 
 ### Search
 - [ANN](note/anns): Approximate nearest neighbours
@@ -16,6 +20,6 @@ Rough notes I've taken on a variety of subjects. Some are complete, most not.
 ### Books
  - "[Amusing Ourselves to Death](note/amusing-ourselves-to-death)" Public Discourse in the Age of Show Business by Neil Postman.
 
-### Papers
- - [Neural Machine Translation](note/neural-machine-translation)
- - [Attention is all you need](note/attention-is-all-you-need)
+### More
+ - [Observability](note/observability): Fundamentals of Observability and OpenTelemetry
+ - [Question](note/questions)

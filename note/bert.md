@@ -1,4 +1,6 @@
-# BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+---
+title: Pre-training of Deep Bidirectional Transformers for Language Understanding
+---
 [link](https://arxiv.org/pdf/1810.04805.pdf)
 
 ## Overview

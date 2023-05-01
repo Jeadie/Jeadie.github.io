@@ -1,4 +1,7 @@
-# Open Domain Image Generation and Editing with Natural Language Guidance
+---
+title: Open Domain Image Generation and Editing with Natural Language Guidance
+---
+
 > [Link](https://arxiv.org/pdf/2204.08583.pdf)
 TODO: https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/#training
 ## Key Part

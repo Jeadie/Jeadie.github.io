@@ -1,4 +1,7 @@
-# Neural Machine Translation By Jointly Learning to Align and Translate
+---
+title: Neural Machine Translation By Jointly Learning to Align and Translate
+---
+
 https://arxiv.org/pdf/1409.0473.pdf
 
 ## Overview
