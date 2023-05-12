@@ -4,6 +4,13 @@ permalink: /ideas
 ---
 
 ## Potential Businesses
+- Generative AI version of unsplash.com but with proper credit/profit assignment.
+- Sports "asset" marketplace for a new betting paradigm
+  - e.g. $8.2 / stock of NBA team, 10c dividend per win
+- Use generative AI for "live" sports matches.
+  - Revenue via betting
+  - Start with simpler dynamics with good betting markets (e.g. horse/dog racing)
+- 
 - Parameteric climate insurance for individuals + SMBs
 - Proof-of-work email spam prevention 
 - QR code coffee cup advertising marketplace
@@ -17,7 +24,7 @@ permalink: /ideas
 - ~~Ecommerce Recs-as-a-Service~~
 - ~~P2P Coupon exchange platform~~
 - ~~Beer-to-good-people beer-company advertising campaign~~
-- 
+
 
 ## Open-source
 - IaC framework for automatic SOC 2 compliance. 
