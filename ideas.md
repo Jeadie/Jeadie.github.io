@@ -10,7 +10,11 @@ permalink: /ideas
 - Use generative AI for "live" sports matches.
   - Revenue via betting
   - Start with simpler dynamics with good betting markets (e.g. horse/dog racing)
-- 
+- Platform for valuable aggregate data that individuals have already made, e.g:
+  - Applications to ycombinator (un/successful)
+  - College applications
+  - Amazon purchasing history, used-goods marketplace
+  - In sum: Any platform/monopoly that gets data from individuals that could be valuable to other businesses.
 - Parameteric climate insurance for individuals + SMBs
 - Proof-of-work email spam prevention 
 - QR code coffee cup advertising marketplace
