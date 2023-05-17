@@ -4,6 +4,12 @@ permalink: /ideas
 ---
 
 ## Potential Businesses
+- Edge distributed, AI search engine service
+  - Search query/results highly cacheable (~1% search terms -> ~60% search frequency)
+  - LLM model size can be reduced, and will continue to.
+  - Large tail of customers do not have large data; traditional/current vector search engines are going after large enterprise.
+  - Read only on cache, async write
+  
 - Generative AI version of unsplash.com but with proper credit/profit assignment.
 - Sports "asset" marketplace for a new betting paradigm
   - e.g. $8.2 / stock of NBA team, 10c dividend per win
