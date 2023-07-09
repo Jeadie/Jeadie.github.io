@@ -22,4 +22,5 @@ Rough notes I've taken on a variety of subjects. Some are complete, most not.
 
 ### More
  - [Observability](note/observability): Fundamentals of Observability and OpenTelemetry
+ - [Zero-Copy Reads, Apache Arrow and Flight](note/large-data): Basic notes on zero-copy reads, Apache Arrow and Apache Flight.
  - [Question](note/questions)
