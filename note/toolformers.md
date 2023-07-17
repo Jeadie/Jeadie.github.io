@@ -2,6 +2,7 @@
 title: Toolformer: Language Models Can Teach Themselves to Use Tools
 ---
 - [link](Toolformer: Language Models Can Teach Themselves to Use Tools)
+- [Pytorch implementation](https://github.com/lucidrains/toolformer-pytorch)
 
 # Overview
  - Teach LLMs to use external tools. 

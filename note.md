@@ -10,6 +10,7 @@ Rough notes I've taken on a variety of subjects. Some are complete, most not.
 - [BERT](note/bert): Pre-training of Deep Bidirectional Transformers for Language Understanding 
 - [GPT](note/gpt): The Evolution of GPT
 - [VQGAN-CLIP](note/vqgan-clip): Open Domain Image Generation and Editing with Natural Language Guidance
+- [Toolformer](note/toolformers.md): Toolformer: Language Models Can Teach Themselves to Use Tools
 
 ### Search
 - [ANN](note/anns): Approximate nearest neighbours
@@ -23,4 +24,5 @@ Rough notes I've taken on a variety of subjects. Some are complete, most not.
 ### More
  - [Observability](note/observability): Fundamentals of Observability and OpenTelemetry
  - [Zero-Copy Reads, Apache Arrow and Flight](note/large-data): Basic notes on zero-copy reads, Apache Arrow and Apache Flight.
+ - [Artificial Life](note/artificial-life.md): Some important people in Artificial Life research 
  - [Question](note/questions)
