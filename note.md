@@ -10,7 +10,8 @@ Rough notes I've taken on a variety of subjects. Some are complete, most not.
 - [BERT](note/bert): Pre-training of Deep Bidirectional Transformers for Language Understanding 
 - [GPT](note/gpt): The Evolution of GPT
 - [VQGAN-CLIP](note/vqgan-clip): Open Domain Image Generation and Editing with Natural Language Guidance
-- [Toolformer](note/toolformers.md): Toolformer: Language Models Can Teach Themselves to Use Tools
+- [Toolformer](note/toolformers.md): Language Models Can Teach Themselves to Use Tools
+- [RLHF](note/rlhf.md): Deep Reinforcement Learning from Human Preferences
 
 ### Search
 - [ANN](note/anns): Approximate nearest neighbours
