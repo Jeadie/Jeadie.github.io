@@ -19,11 +19,14 @@ Rough notes I've taken on a variety of subjects. Some are complete, most not.
 - [HNSW](note/hnsw): Hierarchical Navigable Small World
 - [Opensearch KNN](note/opensearch-knn): Using and performance of Opensearch KNN Plugin
 
+### Computer Science
+ - [Observability](note/observability): Fundamentals of Observability and OpenTelemetry
+ - [Zero-Copy Reads, Apache Arrow and Flight](note/large-data): Basic notes on zero-copy reads, Apache Arrow and Apache Flight.
+ - [Artificial Life](note/artificial-life.md): Some important people in Artificial Life research 
+ - [Ethereum Proof-of-stake](note/ethereum-pos.md): Understanding Ethereum's shift from POW to POS
+
 ### Books
  - "[Amusing Ourselves to Death](note/amusing-ourselves-to-death)" Public Discourse in the Age of Show Business by Neil Postman.
 
 ### More
- - [Observability](note/observability): Fundamentals of Observability and OpenTelemetry
- - [Zero-Copy Reads, Apache Arrow and Flight](note/large-data): Basic notes on zero-copy reads, Apache Arrow and Apache Flight.
- - [Artificial Life](note/artificial-life.md): Some important people in Artificial Life research 
  - [Question](note/questions)
