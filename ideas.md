@@ -3,13 +3,9 @@ title: Ideas
 permalink: /ideas
 ---
 
-## Potential Businesses
-- Edge distributed, AI search engine service
-  - Search query/results highly cacheable (~1% search terms -> ~60% search frequency)
-  - LLM model size can be reduced, and will continue to.
-  - Large tail of customers do not have large data; traditional/current vector search engines are going after large enterprise.
-  - Read only on cache, async write
-  
+## Potential Businesses 
+- Robotic arm (or 3D printer like) painting
+  - Simpliest process: Image, k-means, for each k: paint a dot per pixel in cluster, change to next colour. Optimise colour order and choice to minimise paint reuse.
 - Generative AI version of unsplash.com but with proper credit/profit assignment.
 - Sports "asset" marketplace for a new betting paradigm
   - e.g. $8.2 / stock of NBA team, 10c dividend per win
@@ -25,6 +21,11 @@ permalink: /ideas
 - Proof-of-work email spam prevention 
 - QR code coffee cup advertising marketplace
 - Introducing a 'LLMLIKE' SQL operator for text embedding search
+- ~~Edge distributed, AI search engine service~~
+  - ~~Search query/results highly cacheable (~1% search terms -> ~60% search frequency)~~
+  - ~~LLM model size can be reduced, and will continue to.~~
+  - ~~Large tail of customers do not have large data; traditional/current vector search engines are going after large enterprise.~~
+  - ~~Read only on cache, async write~~
 - ~~Low earth satelite cattle tracking ear tags~~
 - ~~Hand curated tech news platform~~
 - ~~AI podcasting tools~~
