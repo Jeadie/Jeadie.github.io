@@ -20,5 +20,6 @@ The paper introduces a neural machine translation (NMT) model that jointly learn
  - Decoding: Decode via forward pass over previous output tokens, hidden state (different from encoding hidden state) $s_t$ and full-length context $c_i$  $p(y_t \,| \,\{ y_1, y_2, ..., y_{t-1} \}, c_i) = g(y_{i-1}, s_i, c_i)$
    - Context is produced by alignment model over encoding hidden state:
      - $c_i = \sum_{j=1}^{T_x} \alpha_{ij}h_j$ (easy to be done over matrix multiplication)
-     - $\alpha_{ij} = \frac{e^{e_{ij}}}{\sum_{k=1}^{T_x}e^{e_{ik}}$
+     - $\alpha_{ij} = \frac{e^{e_{ij}}}{\sum_{k=1}^{T_x}e^{e_{ik}}}$
+        - Use skip connections with $f(x, t) = \delta_{\epsilon, 1}x + \delta_{\epsilon,0} F(x, t)$ (used in experimentally in paper)
      - $e_{ij} = a(s_{i-1}, h_j)$. $a(..$ is not latent, i.e. backpropgation updates the soft attention. Learn what hidden state from encoding to use (pay attention to) for context vector $c_i$ that is used as context for decoding $y_i$. Alignment model.

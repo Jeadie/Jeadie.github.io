@@ -41,9 +41,9 @@ In this section, we enumerate many approaches in the field. If they're of intere
 - Use precomputation and efficient lookup to reduce the search space prior to similarity calcuations.
 - For example, use several hashing functions (that attempt to maximise hash collisions, not minimise). For a search candidate, compute hashes, and retrieve candidates that match at least one (or could be k of n) hash value (i.e. k of n hashing functions put it in the same bucket).
 - Hash functions that preserve the total ordering of the domain's metric space; i.e.
-```math
+$$
   \forall x,y,z \in M, d(x,y) < d(y,z) \to \|f(x) - f(y)\| < \|f(y) - f(z)\|
-```
+$$
 
 #### LSH: Dense subvector hashing from a substring vocab
  1. Produce an ordered list of overlapping substrings of the original query string, q. Likewise, do the same for all searchable strings in the document, producing a codebook, or vocab. Define an ordering on this vocab.
@@ -51,7 +51,7 @@ In this section, we enumerate many approaches in the field. If they're of intere
  3. Produce a dense hash signature, with k digits.
     1. Produce k random permutations of 1..n (n== size of vocab).
     2. for each of the k permutations, iterately find the value, v from 1..n in the random permutation (i.e. indexOf(v) within the random permutation k).
-    3. If sparsevector[indexOf(v)] == 1, then set digit k of signature to v. Otherwise v++, and check the index again. Since the sparse vector has at least 1 non-zero entry, it is guaranteed to stop in 1..n.
+    3. If $sparsevector[indexOf(v)] == 1$, then set digit k of signature to v. Otherwise v++, and check the index again. Since the sparse vector has at least 1 non-zero entry, it is guaranteed to stop in 1..n.
  4. Produce d_s subvectors of dense vector (of dim = k). Hash individual subvectors. Candidate vectors, when converted into dense vectors, must have one (or more < d_s)  of d_s matching subvector hashes. 
 
 - The goal is to maintain similarity information through the underlying computation.
@@ -68,9 +68,9 @@ In this section, we enumerate many approaches in the field. If they're of intere
    3. Lookup all search results with binary representation, b.
 
 Important theoretical note:
-```math
+$$
  P(h(u) != h(v)) = \theta(u, v) /\ \pi
-```
+$$
 That is, a random plane divides two vectors linearly proportional to the angle between the two vectors (see cosine similarity).
 
 Problem is, we can't distinguish within a bucket (i.e. data vectors with matching binary vectors) without extra compute.

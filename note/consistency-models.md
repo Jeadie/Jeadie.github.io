@@ -22,6 +22,7 @@ Link: https://arxiv.org/pdf/2303.01469.pdf
     - Boundary Condition: $f(x_{\epsilon}, \epsilon) = x_{\epsilon}$, i.e. boundary condition
       - Enforced by:
         - Explicitly in parameterisation of $f$
+     - $e_{ij} = a(s_{i-1}, h_j)$. $a(..$ is not latent, i.e. backpropgation updates the soft attention. Learn what hidden state from encoding to use (pay attention to) for context vector $c_i$ that is used as context for decoding $y_i$. Alignment model.
         - Use skip connections with $f(x, t) = \delta_{\epsilon, 1}x + \delta_{\epsilon,0} F(x, t)$ (used in experimentally in paper)
 
 - To sample, generate from $x_T = \mathcal{N}(0, T^2I)$, then apply $f(x_T, T)$
