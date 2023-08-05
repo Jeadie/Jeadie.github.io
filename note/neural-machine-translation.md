@@ -12,12 +12,12 @@ The paper introduces a neural machine translation (NMT) model that jointly learn
     - Input vector sequence $x = ( x_1, x_2, ...x_{T_x})$
     - Internal state, h at time t, updated at each time $h_t = f(x_t, h_{t-1})$
     - Non-linear function from h to target decoding, $c = q(\{ h_1, h_2, ... \})$
-    - Probability output for target, y_t: `p(y_t | \{ y_1, y_2, ..., y_{t-1} \}, c)`, produced by arbitrary non-linear function (perhaps multi-layer ANN), `g(t_{t-1}, s_t, c)`
+    - Probability output for target, y_t: $p(y_t \,| \,\{ y_1, y_2, ..., y_{t-1} \}, c)$, produced by arbitrary non-linear function (perhaps multi-layer ANN), $g(t_{t-1}, s_t, c)$
     - Translation $\bf{y} = ( y_1, y_2, ...y_{T_y})$ is decomposing joint probability $P(\bf{y}) = \Pi_{t=1}^T p(y_t | \{ y_1, y_2, ..., y_{t-1} \}, c)$
 
 ## Neural Machine Translation Architecture
  - Encoding: Compute hidden state bidirectionally, produce internal state $h_i$ in both forward and backwards. Concatenate hidden state to create $/bf{h}$. RNNs tend to focus on recent input tokens ($h_i$ updates ), therefore hidden state, $h_i$,  will be focused on tokens around $x_i$.
- - Decoding: Decode via forward pass over previous output tokens, hidden state (different from encoding hidden state) $s_t$ and full-length context $c_i$  `p(y_t | \{ y_1, y_2, ..., y_{t-1} \}, c_i) = g(y_{i-1}, s_i, c_i)`
+ - Decoding: Decode via forward pass over previous output tokens, hidden state (different from encoding hidden state) $s_t$ and full-length context $c_i$  $p(y_t \,| \,\{ y_1, y_2, ..., y_{t-1} \}, c_i) = g(y_{i-1}, s_i, c_i)$
    - Context is produced by alignment model over encoding hidden state:
      - $c_i = \sum_{j=1}^{T_x} \alpha_{ij}h_j$ (easy to be done over matrix multiplication)
      - $\alpha_{ij} = \frac{e^{e_{ij}}}{\sum_{k=1}^{T_x}e^{e_{ik}}$

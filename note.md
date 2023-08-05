@@ -30,3 +30,4 @@ Rough notes I've taken on a variety of subjects. Some are complete, most not.
 
 ### More
  - [Question](note/questions)
+ - [Wordley Mappings](note/wordley-mappings.md): What they are and, why and how they get used.

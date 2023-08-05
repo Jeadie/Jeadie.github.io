@@ -49,7 +49,7 @@ Q = "fruit"
 8
 ```
 
-Transformer attention performs the same conceptual operation, using vectors instead of words, and dot-product as for similarity (and scaled to $\[0,1 \]$ with sigmoid).
+Transformer attention performs the same conceptual operation, using vectors instead of words, and dot-product as for similarity (and scaled to $[0, 1]$ with sigmoid).
 
 More rigorously, scaled dot-product attention:
 $$
@@ -57,9 +57,9 @@ $$
 $$
 - Divide by $\sqrt{d_k}$ is to scale the dot product operation which can grow with dim(k) (dot product is a sum of products w.r.t. the key vectors)
 Instead of performing single queries, $q_i$, use query Matrix Q:
-$$$
+$$
     Attention(Q, K, V) = softmax(\frac{QK^T}{\sqrt{d_k}})V
-$$$
+$$
 
 Now Multi-head attention simply creates h linear projections of Q, K, V. The above scaled dot-product attention is performed on each projection, then concatenated together. A further linear projection is applied. The linear projections (their weight matrices), are trained.
 

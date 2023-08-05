@@ -17,7 +17,7 @@ Link: https://arxiv.org/pdf/2303.01469.pdf
 - Can still perform zero-shot tasks. 
 
 ## Consistency models
- - Define consistency model as function, $f(x, t)$, $t \[ \epsilon , T \] $.
+ - Define consistency model as function $f(x, t), t \in [ \epsilon , T ]$ 
     - Key property: $f(x_t, t) = f(x_{t'}, t')$, i.e. entirely surjective.
     - Boundary Condition: $f(x_{\epsilon}, \epsilon) = x_{\epsilon}$, i.e. boundary condition
       - Enforced by:
