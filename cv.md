@@ -4,10 +4,13 @@ permalink: /cv
 ---
 
 ## Professional Experience
-### Engineering Lead | Marqo | Oct 2022-Present
+### Senior Software Engineer | Spice AI | July 2023-Present
+- Data & AI Infrastructure for Web3
+
+### Engineering Lead | Marqo | Oct 2022-July 2023 (10 mos)
 - Directed and led the maturation of cloud infrastructure and processes (containerization, testing, CI/CD, and development tooling) for a small team of 4-5 engineers.
 - Designed and built the Marqo Cloud control plane, responsible for managing and provisioning the cell-based architecture used in the data plane for reliability and horizontal scaling, as well as automatic provisioning and scaling during account onboarding. The control plane handled a mix of container, Kubernetes, and AWS IaC integrations.
-- Designed and built distributed training and fine-tuning infrastructure for LLMs in use to improve search relevancy (to be open-sourced soon).
+- Designed and built distributed training and fine-tuning infrastructure for LLMs in use to improve search relevancy.
 - Within my first week, I unblocked the onboarding of our first Marqo Cloud customer by leading the deployment and performance testing of our storage layer on highly available Kubernetes clusters.
 - Improved the system design of Marqo Cloud to meet vertical scaling requirements essential for winning enterprise customers.
 - Redesigned and reimplemented core data plane microservices from Python for performance reasons.
