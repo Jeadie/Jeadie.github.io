@@ -4,6 +4,11 @@ permalink: /ideas
 ---
 
 ## Potential Businesses 
+- Farcaster for Real estate 
+  - Two parts:
+    - Farcaster protocol: Build core protocol and network for real estate interactions (i.e. houses as NFTs, interactions with properties, user identity, signature and verification)
+    - Warpcaster: Boostrap protocol by building the first commercial application that provides value. Encourage others to build on the protocol. 
+  - Current Real estate DeFI build projects/products that aren't sufficiently decentralised --> don't scale. 
 - Robotic arm (or 3D printer like) painting
   - Simpliest process: Image, k-means, for each k: paint a dot per pixel in cluster, change to next colour. Optimise colour order and choice to minimise paint reuse.
 - Generative AI version of unsplash.com but with proper credit/profit assignment.
