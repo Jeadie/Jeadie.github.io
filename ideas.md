@@ -4,6 +4,7 @@ permalink: /ideas
 ---
 
 ## Potential Businesses 
+- Grandparents will be early adopters for Web3 products.
 - Farcaster for Real estate 
   - Two parts:
     - Farcaster protocol: Build core protocol and network for real estate interactions (i.e. houses as NFTs, interactions with properties, user identity, signature and verification)
