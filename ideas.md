@@ -3,7 +3,8 @@ title: Ideas
 permalink: /ideas
 ---
 
-## Potential Businesses 
+## Potential Businesses
+- App ["once"](once.com) Store for Open Source, [full](ideas/once-store.md)
 - Farcaster for Real estate 
   - Two parts:
     - Farcaster protocol: Build core protocol and network for real estate interactions (i.e. houses as NFTs, interactions with properties, user identity, signature and verification)
