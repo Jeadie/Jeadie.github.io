@@ -5,7 +5,13 @@ permalink: /cv
 
 ## Professional Experience
 ### Senior Software Engineer | Spice AI | July 2023-Present
-- Data & AI Infrastructure for Web3
+I focus on the AI building blocks & infrastructure for the Spice platform.
+
+Think: training pipelines, inference (server & on the edge), understanding the industry & technical SOTA time-series ML, and designing an intuitive & powerful developer experience. 
+
+When I joined, I also worked on a bunch of things, such as: JIT price prediction models for Web3, improving our ETL & datalake architecture for our price HTAP system, improving the developer experience of and making public releases of our SDK and publicly available datasets.
+
+Ramping up on Rust for some important new changes to Spice.AI offerings
 
 ### Engineering Lead | Marqo | Oct 2022-July 2023 (10 mos)
 - Directed and led the maturation of cloud infrastructure and processes (containerization, testing, CI/CD, and development tooling) for a small team of 4-5 engineers.
