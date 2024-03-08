@@ -4,6 +4,14 @@ permalink: /ideas
 ---
 
 ## Potential Businesses 
+- Open-source alternate software platforms tooling that are (at least) one of: {10x cheaper (e.g. use cloud storage), 10x faster (e.g. rewritten in Rust, better threading/SIMD)}.
+  - Current examples
+    - [Dragonfly DB](https://www.dragonflydb.io/): better threading, caching and other decisions make it 25x more throughout than redis.
+    - [Redpanda]: Simpler, 10x better tail latency and 1/6 cost of Apache kafka (via object store, C++, thread/core )
+    - [OpenObserve](https://openobserve.ai/): ElasticSearch but 140x cheaper via object store, stateless nodes, Rust. 
+    - 
+  - Possible opportunities:
+    - [kdb](https://kx.com/): Implement KDB's [q](https://code.kx.com/q/learn) programming language, backed on clickhouse or other open source tools. Sell enterprise support, or common cloud platform with the self-hosted data. Apparantly the price of KDB starts at 25k for 2 cores, 100-200k/core ([source](https://news.ycombinator.com/item?id=5020425)).
 - App ["once"](once.com) Store for Open Source, [full](ideas/once-store.md)
 - Grandparents will be early adopters for Web3 products.
 - Farcaster for Real estate 
