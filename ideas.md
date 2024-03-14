@@ -4,6 +4,10 @@ permalink: /ideas
 ---
 
 ## Potential Businesses 
+- On-chain product reviews. 
+  - On purchase, link `purchaser_pk` with `purchase_id`
+  - Can incentivise users in middle NPS to give reviews
+  - Open access to analyse bad reviewers.
 - Open-source alternate software platforms tooling that are (at least) one of: {10x cheaper (e.g. use cloud storage), 10x faster (e.g. rewritten in Rust, better threading/SIMD)}.
   - Current examples
     - [Dragonfly DB](https://www.dragonflydb.io/): better threading, caching and other decisions make it 25x more throughout than redis.
