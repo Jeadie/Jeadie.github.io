@@ -2,14 +2,14 @@ title: Jack Eadie
 markdown: kramdown
 theme: minima
 header_pages:
- - note.md
- - blog.md
- - now.md
- - cv.md
- - ideas.md
+  - cv.md
+  # - note.md
+  # - blog.md
+  # - now.md
+  # - ideas.md
 
 kramdown:
   math_engine: mathjax
 
-github_username:  jeadie
+github_username: jeadie
 linkedin_username: jack-eadie
