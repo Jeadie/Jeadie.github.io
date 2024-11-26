@@ -4,7 +4,7 @@ title: Jack Eadie
 ---
 
 ## Now
-Working on [spice](https://www.spiceai.org) for [Spice ai](https://www.spice.ai/).
+Working on [spice](https://www.spiceai.org) for [Spice ai](https://www.spice.ai/). Spice makes it easy for developers to create production-ready, AI-native data applications.
 
 ## Past
 I led & built the managed cloud service for [Marqo.ai](https://github.com/marqo-ai/marqo), from onboarding our very first customer to our first public, enterprise customer.
