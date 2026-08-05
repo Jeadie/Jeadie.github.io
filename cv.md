@@ -4,14 +4,13 @@ permalink: /cv
 ---
 
 ## Professional Experience
-### Senior Software Engineer | Spice AI | July 2023-Present
-I focus on the AI building blocks & infrastructure for the Spice platform.
+### Member of Technical Staff | Spice AI | July 2023-Present
 
-Think: training pipelines, inference (server & on the edge), understanding the industry & technical SOTA time-series ML, and designing an intuitive & powerful developer experience. 
+- A core database engineer across Spice.ai's three databases: single node federated, in-process analytic, and multi-node/active HA distributed query.
+- I lead the [Hybrid SQL Search](https://spice.ai/platform/hybrid-sql-search) work within the database engine, starting at the initial exploration. The development led to becoming a pre-launch partner with AWS on their S3Vector product, as well as several enterprise customer deployments.
+- Fortunate to contribute to various open-source Apache projects (arrow, datafusion, ballista) and related contributor subpackages.
+- When I joined, Spice.ai previously built HTAP time series data infrastructure, primarily for blockchain use cases. I worked on ensuring it had the [fastest block-to-query latencies](https://blog.spice.ai/enterprise-grade-performance-for-web3-data-d1604b72b3d5) (<1 - 2.5s vs 10-30s) whilst handling heavy analytic (1k QPS) demands from our [customers](https://blog.spice.ai/spice-firecache-c8419204de54). I worked on the [training and inference product](https://blog.spice.ai/spice-ai-is-generally-available-d76c4289960c) that provided a seamless experience to build and serve ML models for this, as well as a variety of interesting features (e.g. cryptocurrency price estimation APIs).
 
-When I joined, I also worked on a bunch of things, such as: JIT price prediction models for Web3, improving our ETL & datalake architecture for our price HTAP system, improving the developer experience of and making public releases of our SDK and publicly available datasets.
-
-Ramping up on Rust for some important new changes to Spice.AI offerings
 
 ### Engineering Lead | Marqo | Oct 2022-July 2023 (10 mos)
 - Directed and led the maturation of cloud infrastructure and processes (containerization, testing, CI/CD, and development tooling) for a small team of 4-5 engineers.
@@ -23,18 +22,14 @@ Ramping up on Rust for some important new changes to Spice.AI offerings
 
 ### Software Engineer | Amazon | Mar 2021-Oct 2022 (1 yr 8 mos)
 - Worked on Amazon Grocery's data and recommendation systems for substitutions/replacements.
-
-- Diagnosed and fixed the event streaming, ETL and statistical model pipeline responsible for grocery substitution recommendations leading to a $80MM revenue recovery. Became the SME in this area and proposed new approaches to improve content-based filtering for new or out-of-distributions SKUs.
-
+- Diagnosed and fixed the event streaming, ETL and statistical model pipeline responsible for grocery substitution recommendations leading to a $80MM revenue recovery. Became the SME in this area and proposed new approaches to improve content-based filtering for new or out-of-distribution SKUs.
 - Built out CI/CD and infrastructure code for opensearch clusters to safely deploy our observability platform and make changes to the system. Systemised telemetry agents to reduce code duplication and errors. Reduced telemetry bloat and improved infrastructure configuration saving 30% on cloud costs. Introduced distributed tracing across substitution-based microservices for improved observability.
-
-- Delivered paid substitutions across Amazon Fresh stores as a part of a multi-team/organisation. Responsible for leading work on away team systems. Designed and delivered improved systems to simplify the service architecture across grocery fullfilment systems. 
-
+- Delivered paid substitutions across Amazon Fresh stores as a part of a multi-team/organisation. Responsible for leading work on away team systems. Designed and delivered improved systems to simplify the service architecture across grocery fulfilment systems.
 - Delivered production systems to enable CCPA and GDPR compliance across grocery substitution data.
 
 ### AI & Data Engineer | MaxwellPlus | Apr 2018-Mar 2021 (3 yrs)
-- Automated and deployed AI training infrastructure using Kubernetes and other containerisation tooling across both Google Cloud and AWS.◦
-- Responsible for internal and production infrastructure, release automation and site reliability across the product within multiple environments that require medical regulatory compliance.◦
+- Automated and deployed AI training infrastructure using Kubernetes and other containerisation tooling across both Google Cloud and AWS.
+- Responsible for internal and production infrastructure, release automation and site reliability across the product within multiple environments that require medical regulatory compliance.
 - Improved CI/CD tooling for developer efficiency including browser testing, build times and system tooling.
 - Implemented batch and distributed data pipelines for processing DICOMs with Apache Beam Google Dataflow.
 - Researched and developed deep learning models in Tensorflow for MRI bias correction, modality transfer learning prostate cancer classification including reviewing and experimentally assessing new literature.
