@@ -7,8 +7,10 @@ permalink: /cv
 ### Member of Technical Staff | Spice AI | July 2023-Present
 
 - A core database engineer across Spice.ai's three databases: [single node federated](https://spice.ai/blog/announcing-spice-ai-open-source-1-0-stable), [in-process analytic](https://spice.ai/blog/introducing-spice-cayenne-data-accelerator), and [multi-node/active HA distributed query](https://spice.ai/feature/distributed-query).
-- I lead the [Hybrid SQL Search](https://spice.ai/platform/hybrid-sql-search) work within the database engine, starting at the initial exploration. The development led to becoming a pre-launch partner with AWS on their S3Vector product, as well as several enterprise customer deployments.
-- Fortunate to contribute to various open-source Apache projects (arrow, datafusion, ballista) and related contributor subpackages.
+- Started and lead the [search engine](https://spice.ai/platform/hybrid-sql-search) work within the database, starting at the initial exploration. The development led to becoming a pre-launch partner with AWS on their S3Vector product, as well as several enterprise customer deployments.
+- Design, built and operate (i.e. oncall) our managed Spice cloud and Spice BYOC offerings.
+- Contribution to various open-source Apache projects (arrow, datafusion, ballista, datafusion-contrib), search (tantivy) and AI related projects.
+- Directly responsible for improving cloud security, authz/authn database policy (e.g. RLS), and LLM-based autonomous penetration testing.
 - When I joined, Spice.ai previously built HTAP time series data infrastructure, primarily for blockchain use cases. I worked on ensuring it had the [fastest block-to-query latencies](https://blog.spice.ai/enterprise-grade-performance-for-web3-data-d1604b72b3d5) (<1 - 2.5s vs 10-30s) whilst handling heavy analytic (1k QPS) demands from our [customers](https://blog.spice.ai/spice-firecache-c8419204de54). I worked on the [training and inference product](https://blog.spice.ai/spice-ai-is-generally-available-d76c4289960c) that provided a seamless experience to build and serve ML models for this, as well as a variety of interesting features (e.g. cryptocurrency price estimation APIs).
 
 ### Engineering Lead | Marqo | Oct 2022-July 2023 (10 mos)
